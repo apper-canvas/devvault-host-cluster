@@ -1,0 +1,134 @@
+[
+  {
+    "Id": 1,
+    "url": "https://reactjs.org/docs/getting-started.html",
+    "title": "React Documentation - Getting Started",
+    "description": "Official React documentation covering the basics of React development, components, hooks, and best practices.",
+    "favicon": "https://www.google.com/s2/favicons?domain=reactjs.org&sz=32",
+    "tags": ["react", "docs", "frontend", "javascript"],
+    "collectionId": 1,
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "url": "https://github.com/facebook/react",
+    "title": "React - GitHub Repository",
+    "description": "The official React JavaScript library repository on GitHub with source code, issues, and contributions.",
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com&sz=32",
+    "tags": ["react", "repos", "github", "opensource"],
+    "collectionId": 2,
+    "createdAt": "2024-01-14T14:20:00Z",
+    "updatedAt": "2024-01-14T14:20:00Z"
+  },
+  {
+    "Id": 3,
+    "url": "https://nodejs.org/en/docs/",
+    "title": "Node.js Documentation",
+    "description": "Complete Node.js documentation including API reference, guides, and tutorials for server-side JavaScript development.",
+    "favicon": "https://www.google.com/s2/favicons?domain=nodejs.org&sz=32",
+    "tags": ["nodejs", "docs", "backend", "javascript"],
+    "collectionId": 1,
+    "createdAt": "2024-01-13T09:15:00Z",
+    "updatedAt": "2024-01-13T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "url": "https://tailwindcss.com/docs",
+    "title": "Tailwind CSS Documentation",
+    "description": "Comprehensive documentation for Tailwind CSS utility-first framework with examples and configuration guides.",
+    "favicon": "https://www.google.com/s2/favicons?domain=tailwindcss.com&sz=32",
+    "tags": ["tailwind", "css", "docs", "styling"],
+    "collectionId": 1,
+    "createdAt": "2024-01-12T16:45:00Z",
+    "updatedAt": "2024-01-12T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "url": "https://code.visualstudio.com/",
+    "title": "Visual Studio Code",
+    "description": "Free source-code editor with support for debugging, syntax highlighting, intelligent code completion, and extensions.",
+    "favicon": "https://www.google.com/s2/favicons?domain=code.visualstudio.com&sz=32",
+    "tags": ["vscode", "tools", "editor", "development"],
+    "collectionId": 3,
+    "createdAt": "2024-01-11T11:30:00Z",
+    "updatedAt": "2024-01-11T11:30:00Z"
+  },
+  {
+    "Id": 6,
+    "url": "https://www.postman.com/",
+    "title": "Postman API Platform",
+    "description": "Comprehensive API development environment for testing, documenting, and monitoring APIs across development lifecycle.",
+    "favicon": "https://www.google.com/s2/favicons?domain=postman.com&sz=32",
+    "tags": ["postman", "tools", "api", "testing"],
+    "collectionId": 3,
+    "createdAt": "2024-01-10T13:20:00Z",
+    "updatedAt": "2024-01-10T13:20:00Z"
+  },
+  {
+    "Id": 7,
+    "url": "https://www.figma.com/",
+    "title": "Figma - Collaborative Design",
+    "description": "Web-based design and prototyping tool for UI/UX design with real-time collaboration and design systems.",
+    "favicon": "https://www.google.com/s2/favicons?domain=figma.com&sz=32",
+    "tags": ["figma", "tools", "design", "ui"],
+    "collectionId": 3,
+    "createdAt": "2024-01-09T08:45:00Z",
+    "updatedAt": "2024-01-09T08:45:00Z"
+  },
+  {
+    "Id": 8,
+    "url": "https://javascript.info/",
+    "title": "The Modern JavaScript Tutorial",
+    "description": "Comprehensive JavaScript tutorial covering modern JavaScript from basics to advanced topics with practical examples.",
+    "favicon": "https://www.google.com/s2/favicons?domain=javascript.info&sz=32",
+    "tags": ["javascript", "tutorials", "learning", "frontend"],
+    "collectionId": 4,
+    "createdAt": "2024-01-08T15:10:00Z",
+    "updatedAt": "2024-01-08T15:10:00Z"
+  },
+  {
+    "Id": 9,
+    "url": "https://github.com/sindresorhus/awesome",
+    "title": "Awesome Lists - GitHub",
+    "description": "Curated list of awesome lists covering various programming topics, tools, frameworks, and resources.",
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com&sz=32",
+    "tags": ["github", "references", "awesome", "resources"],
+    "collectionId": 5,
+    "createdAt": "2024-01-07T12:35:00Z",
+    "updatedAt": "2024-01-07T12:35:00Z"
+  },
+  {
+    "Id": 10,
+    "url": "https://developer.mozilla.org/en-US/",
+    "title": "MDN Web Docs",
+    "description": "Comprehensive web development documentation covering HTML, CSS, JavaScript, and web APIs with examples and guides.",
+    "favicon": "https://www.google.com/s2/favicons?domain=developer.mozilla.org&sz=32",
+    "tags": ["mdn", "docs", "web", "references"],
+    "collectionId": 5,
+    "createdAt": "2024-01-06T10:20:00Z",
+    "updatedAt": "2024-01-06T10:20:00Z"
+  },
+  {
+    "Id": 11,
+    "url": "https://vitejs.dev/",
+    "title": "Vite - Build Tool",
+    "description": "Next generation frontend tooling with fast hot reload, optimized builds, and out-of-the-box support for modern frameworks.",
+    "favicon": "https://www.google.com/s2/favicons?domain=vitejs.dev&sz=32",
+    "tags": ["vite", "tools", "build", "frontend"],
+    "collectionId": 3,
+    "createdAt": "2024-01-05T14:55:00Z",
+    "updatedAt": "2024-01-05T14:55:00Z"
+  },
+  {
+    "Id": 12,
+    "url": "https://www.typescriptlang.org/docs/",
+    "title": "TypeScript Documentation",
+    "description": "Official TypeScript documentation with type system guides, compiler options, and migration strategies.",
+    "favicon": "https://www.google.com/s2/favicons?domain=typescriptlang.org&sz=32",
+    "tags": ["typescript", "docs", "javascript", "types"],
+    "collectionId": 1,
+    "createdAt": "2024-01-04T09:40:00Z",
+    "updatedAt": "2024-01-04T09:40:00Z"
+  }
+]

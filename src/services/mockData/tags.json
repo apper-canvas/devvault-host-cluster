@@ -1,0 +1,142 @@
+[
+  {
+    "Id": 1,
+    "name": "react",
+    "color": "#61DAFB",
+    "category": "docs",
+    "usageCount": 2
+  },
+  {
+    "Id": 2,
+    "name": "docs",
+    "color": "#3B82F6",
+    "category": "docs",
+    "usageCount": 6
+  },
+  {
+    "Id": 3,
+    "name": "javascript",
+    "color": "#F7DF1E",
+    "category": "docs",
+    "usageCount": 4
+  },
+  {
+    "Id": 4,
+    "name": "nodejs",
+    "color": "#339933",
+    "category": "docs",
+    "usageCount": 1
+  },
+  {
+    "Id": 5,
+    "name": "tailwind",
+    "color": "#06B6D4",
+    "category": "docs",
+    "usageCount": 1
+  },
+  {
+    "Id": 6,
+    "name": "css",
+    "color": "#1572B6",
+    "category": "docs",
+    "usageCount": 1
+  },
+  {
+    "Id": 7,
+    "name": "tools",
+    "color": "#8B5CF6",
+    "category": "tools",
+    "usageCount": 5
+  },
+  {
+    "Id": 8,
+    "name": "vscode",
+    "color": "#007ACC",
+    "category": "tools",
+    "usageCount": 1
+  },
+  {
+    "Id": 9,
+    "name": "postman",
+    "color": "#FF6C37",
+    "category": "tools",
+    "usageCount": 1
+  },
+  {
+    "Id": 10,
+    "name": "figma",
+    "color": "#F24E1E",
+    "category": "tools",
+    "usageCount": 1
+  },
+  {
+    "Id": 11,
+    "name": "tutorials",
+    "color": "#10B981",
+    "category": "tutorials",
+    "usageCount": 1
+  },
+  {
+    "Id": 12,
+    "name": "github",
+    "color": "#181717",
+    "category": "repos",
+    "usageCount": 2
+  },
+  {
+    "Id": 13,
+    "name": "repos",
+    "color": "#6B7280",
+    "category": "repos",
+    "usageCount": 1
+  },
+  {
+    "Id": 14,
+    "name": "references",
+    "color": "#F59E0B",
+    "category": "references",
+    "usageCount": 3
+  },
+  {
+    "Id": 15,
+    "name": "frontend",
+    "color": "#EC4899",
+    "category": "custom",
+    "usageCount": 3
+  },
+  {
+    "Id": 16,
+    "name": "backend",
+    "color": "#6366F1",
+    "category": "custom",
+    "usageCount": 1
+  },
+  {
+    "Id": 17,
+    "name": "typescript",
+    "color": "#3178C6",
+    "category": "docs",
+    "usageCount": 1
+  },
+  {
+    "Id": 18,
+    "name": "vite",
+    "color": "#646CFF",
+    "category": "tools",
+    "usageCount": 1
+  },
+  {
+    "Id": 19,
+    "name": "mdn",
+    "color": "#000000",
+    "category": "references",
+    "usageCount": 1
+  },
+  {
+    "Id": 20,
+    "name": "awesome",
+    "color": "#FC60A8",
+    "category": "references",
+    "usageCount": 1
+  }
+]

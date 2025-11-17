@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "name": "Documentation",
+    "parentId": null,
+    "bookmarkCount": 4,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "GitHub Repositories",
+    "parentId": null,
+    "bookmarkCount": 2,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Development Tools",
+    "parentId": null,
+    "bookmarkCount": 4,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Tutorials & Learning",
+    "parentId": null,
+    "bookmarkCount": 1,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "References",
+    "parentId": null,
+    "bookmarkCount": 2,
+    "createdAt": "2024-01-01T00:00:00Z"
+  }
+]
