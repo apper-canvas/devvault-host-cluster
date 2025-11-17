@@ -39,10 +39,10 @@ const Layout = () => {
     setTheme(themeName);
   };
 
-  const loadSidebarData = async () => {
+const loadSidebarData = async () => {
     try {
       const [collectionsData, tagsData] = await Promise.all([
-        collectionService.getCollections(),
+        collectionService.getAll(),
         tagService.getTags(),
       ]);
       setCollections(collectionsData);
