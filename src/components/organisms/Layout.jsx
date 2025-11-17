@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
-import { toast } from "react-toastify";
 import { bookmarkService, collectionService, tagService } from "@/services/api";
 import settingsService from "@/services/api/settingsService";
+import { toast } from "sonner";
 import Sidebar from "@/components/organisms/Sidebar";
 import Header from "@/components/organisms/Header";
 
