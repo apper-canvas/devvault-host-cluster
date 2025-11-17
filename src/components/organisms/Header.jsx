@@ -1,9 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import SearchBar from "@/components/molecules/SearchBar";
 import Button from "@/components/atoms/Button";
 import ApperIcon from "@/components/ApperIcon";
-
 const Header = ({ 
   searchQuery, 
   onSearchChange, 
@@ -12,6 +12,7 @@ const Header = ({
   onToggleMobileSidebar,
   title = "All Bookmarks" 
 }) => {
+  const navigate = useNavigate();
   return (
     <header className="bg-surface border-b border-slate-200 sticky top-0 z-40">
       <div className="px-6 py-4">
@@ -38,7 +39,7 @@ const Header = ({
                 <p className="text-sm text-slate-600 hidden md:block">{title}</p>
               </div>
             </div>
-          </div>
+</div>
 
           {/* Right side - Search and Add button */}
           <div className="flex items-center space-x-4">
@@ -51,6 +52,16 @@ const Header = ({
               />
             </div>
             
+            <Button 
+              onClick={() => navigate('/settings')}
+              variant="ghost"
+              size="sm"
+              className="p-2"
+              title="Settings"
+            >
+              <ApperIcon name="Settings" className="w-4 h-4" />
+            </Button>
+
             <Button onClick={onAddBookmark} className="flex items-center space-x-2">
               <ApperIcon name="Plus" className="w-4 h-4" />
               <span className="hidden sm:inline">Add Bookmark</span>

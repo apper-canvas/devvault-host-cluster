@@ -1,0 +1,14 @@
+{
+  "theme": "light",
+  "autoStartOnBoot": false,
+  "compactMode": false,
+  "notifications": {
+    "enabled": true,
+    "sound": true,
+    "desktop": true
+  },
+  "privacy": {
+    "trackingEnabled": false,
+    "analyticsEnabled": true
+  }
+}

@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Suspense, lazy } from "react";
+import React, { Suspense, lazy } from "react";
 import Layout from "@/components/organisms/Layout";
 
-// Lazy load all page components
+const Recent = lazy(() => import("@/components/pages/Recent"));
+const Settings = lazy(() => import("@/components/pages/Settings"));
 const AllBookmarks = lazy(() => import("@/components/pages/AllBookmarks"));
 const CollectionView = lazy(() => import("@/components/pages/CollectionView"));
 const TagView = lazy(() => import("@/components/pages/TagView"));
-const Recent = lazy(() => import("@/components/pages/Recent"));
 const NotFound = lazy(() => import("@/components/pages/NotFound"));
 
 // Loading component for Suspense fallback
@@ -31,6 +31,10 @@ const mainRoutes = [
     path: "",
     index: true,
     element: <SuspenseWrapper><AllBookmarks /></SuspenseWrapper>
+  },
+  {
+    path: "settings",
+    element: <SuspenseWrapper><Settings /></SuspenseWrapper>
   },
   {
     path: "recent",
