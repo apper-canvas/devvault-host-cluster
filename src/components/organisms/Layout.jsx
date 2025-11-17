@@ -2,10 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import { bookmarkService, collectionService, tagService } from "@/services/api";
 import settingsService from "@/services/api/settingsService";
-import { toast } from "sonner";
+import { toast } from "react-toastify";
 import Sidebar from "@/components/organisms/Sidebar";
 import Header from "@/components/organisms/Header";
-
 const Layout = () => {
   const [collections, setCollections] = useState([]);
   const [tags, setTags] = useState([]);
