@@ -43,7 +43,7 @@ const loadSidebarData = async () => {
     try {
       const [collectionsData, tagsData] = await Promise.all([
         collectionService.getAll(),
-        tagService.getTags(),
+tagService.getAll(),
       ]);
       setCollections(collectionsData);
       setTags(tagsData);
